@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\算法集合">
+      <UniqueIdentifier>{f35a6aef-9fa6-42d5-a194-fca6f311be8d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -23,6 +26,15 @@
     </ClInclude>
     <ClInclude Include="BSTree.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="custom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\ReverseListSo.h">
+      <Filter>源文件\算法集合</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseSolution.h">
+      <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
