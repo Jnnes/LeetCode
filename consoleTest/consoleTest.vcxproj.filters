@@ -27,14 +27,17 @@
     <ClInclude Include="BSTree.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="custom.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="algorithm\ReverseListSo.h">
       <Filter>源文件\算法集合</Filter>
     </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="BaseSolution.h">
-      <Filter>源文件</Filter>
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\ShortestSubArray.h">
+      <Filter>源文件\算法集合</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

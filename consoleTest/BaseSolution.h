@@ -16,8 +16,16 @@ public:
     virtual void init(void);
     virtual void run(void);
     virtual void result(void);
-    
+
+    virtual std::string getTAG();
+
+private:
+    std::string TAG = "BaseSolution";
 };
+
+std::string BaseSolution::getTAG() {
+    return TAG;
+}
 
 void BaseSolution::init(void) {
     std::cout << "BaseSolution: no init" << std::endl;
@@ -33,13 +41,13 @@ void BaseSolution::result(void) {
 
 void BaseSolution::execute(void) {
     std::cout << std::endl << " ---------------- 初始化数据 ---------------- " << std::endl;
-    init();
+    this->init();
 
     std::cout << std::endl << " ---------------- 开始执行用例 ---------------- " << std::endl;
-    run();
+    this->run();
     
     std::cout << std::endl << " ----------------   打印结果   ---------------- " << std::endl;
-    result();
+    this->result();
 
     std::cout << std::endl << " ----------------   执行结束  ---------------- " << std::endl << std::endl;
 }
