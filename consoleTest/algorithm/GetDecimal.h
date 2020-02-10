@@ -2,6 +2,7 @@
 #include "../BaseSolution.h"
 #include "../Common.h"
 
+// 1290 二进制链表转整数
 int getDecimalValue(ListNode* head) {    
     int ret = 0;
     while (head)

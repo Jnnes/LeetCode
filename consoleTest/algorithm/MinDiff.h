@@ -2,6 +2,7 @@
 #include "../BaseSolution.h"
 #include "../Common.h"
 
+// 1200 ×îÐ¡¾ø¶Ô²î
 vector<vector<int>> minimumAbsDifference(vector<int>& arr) {
     if (arr.size() < 2)
         return vector<vector<int>>();
