@@ -53,10 +53,10 @@ public:
 };
 
 // 通过引用不同文件实现切换不同算法解决方案
-#include "algorithm/ReverseListSo.h"
+#include "algorithm/maxBalloon.h"
 
 int main() {    
-    ReverseListSo so;
+    MaxBalloon so;
     so.execute();
     system("pause");
     return 0;

@@ -36,6 +36,9 @@
     <ClInclude Include="BaseSolution.h">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\maxBalloon.h">
+      <Filter>源文件\算法集合</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

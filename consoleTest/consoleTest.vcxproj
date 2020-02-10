@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="algorithm\maxBalloon.h" />
     <ClInclude Include="algorithm\ReverseListSo.h" />
     <ClInclude Include="BaseSolution.h" />
     <ClInclude Include="BSTree.h" />

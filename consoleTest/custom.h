@@ -7,6 +7,8 @@
 
 #include <vector>
 #include <string>
+#include <map>
+#include <math.h>
 
 using namespace std;
 
