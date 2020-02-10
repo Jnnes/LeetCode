@@ -5,10 +5,19 @@
 
 #pragma once
 
+#include <iostream>
 #include <vector>
 #include <string>
+#include <vector>
 #include <map>
+#include <algorithm>
+#include <set>
+#include <stack>
+#include <queue>
+#include <sstream>
+#include <unordered_set>
 #include <math.h>
+#include "BaseSolution.h"
 
 using namespace std;
 
@@ -241,20 +250,28 @@ string PlalindromeString(string str) {
     return ret;
 };
 
-void  Print(vector<Point> &PointList) {
+void  print(vector<Point> &PointList) {
     for (int i = 0; i < PointList.size(); i++) {
         std::cout << PointList[i].x << " " << PointList[i].y << std::endl;
     }
     std::cout << std::endl << std::endl;
 }
 
-void Print(ListNode * root) {
+void print(ListNode * root) {
     if (!root) {
         std::cout << "NULL"<< std::endl;
     }
     else
     {
         std::cout << root->val << " -> ";
-        Print(root->next);
+        print(root->next);
     }
+}
+
+template <typename T> void print(vector<T> vec) {
+    for (auto it = vec.begin(); it != vec.end(); it++) {
+        std::cout << *it << " - ";
+    }
+
+    std::cout << std::endl;
 }
