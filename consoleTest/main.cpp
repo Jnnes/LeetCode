@@ -11,7 +11,7 @@
 #include <string>
 #include<unordered_set>
 #include<math.h>
-#include"custom.h"
+#include"Common.h"
 
 class Solution {
 public:

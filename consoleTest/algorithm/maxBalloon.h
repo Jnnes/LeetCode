@@ -1,6 +1,6 @@
 #pragma once
 #include "../BaseSolution.h"
-#include "../custom.h"
+#include "../Common.h"
 
 int maxNumberOfBalloons(string text) {
     std::map<char, int> mapc;
