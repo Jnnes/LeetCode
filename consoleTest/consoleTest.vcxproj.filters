@@ -45,6 +45,9 @@
     <ClInclude Include="algorithm\MinDiff.h">
       <Filter>源文件\算法集合</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\GetDecimal.h">
+      <Filter>源文件\算法集合</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

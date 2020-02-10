@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="algorithm\GetDecimal.h" />
     <ClInclude Include="algorithm\maxBalloon.h" />
     <ClInclude Include="algorithm\MinDiff.h" />
     <ClInclude Include="algorithm\ReverseListSo.h" />
