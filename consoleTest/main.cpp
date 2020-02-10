@@ -53,10 +53,10 @@ public:
 };
 
 // 通过引用不同文件实现切换不同算法解决方案
-#include "algorithm/maxBalloon.h"
+#include "algorithm/MinDiff.h"
 
 int main() {    
-    MaxBalloon so;
+    MinDiff so;
     so.execute();
     system("pause");
     return 0;
