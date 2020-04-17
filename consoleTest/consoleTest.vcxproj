@@ -152,6 +152,7 @@
     <ClInclude Include="algorithm\MinDiff.h" />
     <ClInclude Include="algorithm\ReverseListSo.h" />
     <ClInclude Include="algorithm\ShortestSubArray.h" />
+    <ClInclude Include="algorithm\Sort.h" />
     <ClInclude Include="BaseSolution.h" />
     <ClInclude Include="BSTree.h" />
     <ClInclude Include="Common.h" />

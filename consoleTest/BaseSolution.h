@@ -12,16 +12,27 @@ public:
     ~BaseSolution(){};
 
     virtual void execute(void) final; // 禁止子类重载
+    virtual void execute(std::string) final; // 禁止子类重载
 
     virtual void init(void);
     virtual void run(void);
+    virtual void run(std::string);
     virtual void result(void);
 
     virtual std::string getTAG();
 
+    void setParam(std::string);
+
+    std::string sParam;
+
 private:
     std::string TAG = "BaseSolution";
 };
+
+
+void BaseSolution::setParam(std::string str) {
+    this->sParam = str;
+}
 
 std::string BaseSolution::getTAG() {
     return TAG;
@@ -35,6 +46,10 @@ void BaseSolution::run(void) {
     std::cout << "【ERROR】 can not use BaseSolution::run" << std::endl;
 }
 
+void BaseSolution::run(std::string) {
+    std::cout << "【ERROR】 can not use BaseSolution::run" << std::endl;
+}
+
 void BaseSolution::result(void) {
     std::cout << "BaseSolution: no result" << std::endl;
 }
@@ -44,8 +59,25 @@ void BaseSolution::execute(void) {
     this->init();
 
     std::cout << std::endl << " ---------------- 开始执行用例 ---------------- " << std::endl;
-    this->run();
     
+    if (this->sParam.length() != 0)
+        this->run(this->sParam);
+    else
+        this->run();
+    
+    std::cout << std::endl << " ----------------   打印结果   ---------------- " << std::endl;
+    this->result();
+
+    std::cout << std::endl << " ----------------   执行结束  ---------------- " << std::endl << std::endl;
+}
+
+void BaseSolution::execute(std::string str) {
+    std::cout << std::endl << " ---------------- 初始化数据 ---------------- " << std::endl;
+    this->init();
+
+    std::cout << std::endl << " ---------------- 开始执行用例 ---------------- " << std::endl;
+    this->run(str);
+
     std::cout << std::endl << " ----------------   打印结果   ---------------- " << std::endl;
     this->result();
 

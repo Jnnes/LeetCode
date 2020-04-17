@@ -53,11 +53,13 @@ public:
 };
 
 // 通过引用不同文件实现切换不同算法解决方案
-#include "algorithm/MinDiff.h"
+#include "algorithm/Sort.h"
 
 int main() {    
-    MinDiff so;
+    Sort so;
+    so.setParam(Sort::MAOPAO);
     so.execute();
+    //so.execute(Sort::MERGE)
     system("pause");
     return 0;
 }

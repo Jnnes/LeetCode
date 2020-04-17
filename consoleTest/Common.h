@@ -268,6 +268,14 @@ void print(ListNode * root) {
     }
 }
 
+void print(int a[], int n) {
+    for (int i = 0; i < n; i++) {
+        std::cout << a[i] << " - ";
+    }
+
+    std::cout << std::endl;
+}
+
 template <typename T> void print(vector<T> vec) {
     for (auto it = vec.begin(); it != vec.end(); it++) {
         std::cout << *it << " - ";
