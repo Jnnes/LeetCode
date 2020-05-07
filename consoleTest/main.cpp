@@ -56,6 +56,8 @@ public:
 #include "algorithm/Sort.h"
 
 int main() {    
+    vector<int> vec;
+
     Sort so;
     so.setParam(Sort::MAOPAO);
     so.execute();
