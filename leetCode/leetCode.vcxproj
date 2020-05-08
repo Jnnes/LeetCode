@@ -155,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="15.h" />
+    <ClInclude Include="169.h" />
     <ClInclude Include="41.h" />
     <ClInclude Include="Common.h" />
   </ItemGroup>
