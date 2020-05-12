@@ -38,5 +38,11 @@
     <ClInclude Include="23.h">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="20.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="32.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

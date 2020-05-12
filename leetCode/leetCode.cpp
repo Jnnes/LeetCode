@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-#include "23.h"
+#include "32.h"
 int main()
 {
     Solution so;
