@@ -162,6 +162,7 @@
     <ClInclude Include="23.h" />
     <ClInclude Include="32.h" />
     <ClInclude Include="41.h" />
+    <ClInclude Include="641.h" />
     <ClInclude Include="Common.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
