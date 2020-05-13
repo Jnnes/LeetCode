@@ -93,17 +93,36 @@ private:
     }
 };
 
-//
-//// 测试框架必备
-//vector<string> generateTestData() {
-//    auto ret = vector<string>{ "4", "13", "5", "/", "+" };
-//    return ret;
-//}
-//
-//void run(Solution so) {
-//    auto testData = generateTestData();
-//
-//    // do algrithme
-//    auto ret = so.evalRPN(testData);
-//    ret = ret;
-//}
+
+class Solution {
+public:
+    int run() {
+        // Your MyCircularDeque object will be instantiated and called as such:
+        MyCircularDeque circularDeque(3); // 设置容量大小为3
+        circularDeque.insertLast(1);			        // 返回 true
+        circularDeque.insertLast(2);			        // 返回 true
+        circularDeque.insertFront(3);			        // 返回 true
+        circularDeque.insertFront(4);			        // 已经满了，返回 false
+        circularDeque.getRear();  				// 返回 2
+        circularDeque.isFull();				        // 返回 true
+        circularDeque.deleteLast();			        // 返回 true
+        circularDeque.insertFront(4);			        // 返回 true
+        circularDeque.getFront();				// 返回 4
+        return 0;
+    }
+};
+
+
+// 测试框架必备
+vector<string> generateTestData() {
+    auto ret = vector<string>{ "4", "13", "5", "/", "+" };
+    return ret;
+}
+
+void run(Solution so) {
+    //auto testData = generateTestData();
+
+    // do algrithme
+    auto ret = so.run();
+    ret = ret;
+}
