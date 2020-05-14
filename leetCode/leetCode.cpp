@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-#include "239.h"
+#include "239_dynamic.h"
 int main()
 {
     Solution so;
