@@ -1,5 +1,5 @@
 #pragma once
-#include "Common.h"
+#include "../Common.h"
 
 
 // 下面部分拷贝到答题区域

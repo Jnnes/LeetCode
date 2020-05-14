@@ -1,7 +1,5 @@
 #pragma once
-#include "Common.h"
-
-
+#include "../Common.h"
 
 class Solution {
 public:

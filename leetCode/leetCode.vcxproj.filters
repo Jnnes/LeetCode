@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\solution">
+      <UniqueIdentifier>{e42a9eba-f9f5-4bf0-992f-c8a91838b891}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="leetCode.cpp">
@@ -20,41 +23,44 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="15.h">
-      <Filter>源文件</Filter>
+    <ClInclude Include="solution\15.h">
+      <Filter>源文件\solution</Filter>
+    </ClInclude>
+    <ClInclude Include="solution\20.h">
+      <Filter>源文件\solution</Filter>
+    </ClInclude>
+    <ClInclude Include="solution\23.h">
+      <Filter>源文件\solution</Filter>
+    </ClInclude>
+    <ClInclude Include="solution\32.h">
+      <Filter>源文件\solution</Filter>
+    </ClInclude>
+    <ClInclude Include="solution\41.h">
+      <Filter>源文件\solution</Filter>
+    </ClInclude>
+    <ClInclude Include="solution\141.h">
+      <Filter>源文件\solution</Filter>
+    </ClInclude>
+    <ClInclude Include="solution\150.h">
+      <Filter>源文件\solution</Filter>
+    </ClInclude>
+    <ClInclude Include="solution\169.h">
+      <Filter>源文件\solution</Filter>
+    </ClInclude>
+    <ClInclude Include="solution\239.h">
+      <Filter>源文件\solution</Filter>
+    </ClInclude>
+    <ClInclude Include="solution\239_dynamic.h">
+      <Filter>源文件\solution</Filter>
+    </ClInclude>
+    <ClInclude Include="solution\641.h">
+      <Filter>源文件\solution</Filter>
+    </ClInclude>
+    <ClInclude Include="solution\70.h">
+      <Filter>源文件\solution</Filter>
     </ClInclude>
     <ClInclude Include="Common.h">
       <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="41.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="169.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="141.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="23.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="20.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="32.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="150.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="641.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="239.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="239_dynamic.h">
-      <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

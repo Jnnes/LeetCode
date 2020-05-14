@@ -154,18 +154,19 @@
     <ClCompile Include="leetCode.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="141.h" />
-    <ClInclude Include="15.h" />
-    <ClInclude Include="150.h" />
-    <ClInclude Include="169.h" />
-    <ClInclude Include="20.h" />
-    <ClInclude Include="23.h" />
-    <ClInclude Include="239.h" />
-    <ClInclude Include="239_dynamic.h" />
-    <ClInclude Include="32.h" />
-    <ClInclude Include="41.h" />
-    <ClInclude Include="641.h" />
     <ClInclude Include="Common.h" />
+    <ClInclude Include="solution\141.h" />
+    <ClInclude Include="solution\15.h" />
+    <ClInclude Include="solution\150.h" />
+    <ClInclude Include="solution\169.h" />
+    <ClInclude Include="solution\20.h" />
+    <ClInclude Include="solution\23.h" />
+    <ClInclude Include="solution\239.h" />
+    <ClInclude Include="solution\239_dynamic.h" />
+    <ClInclude Include="solution\32.h" />
+    <ClInclude Include="solution\41.h" />
+    <ClInclude Include="solution\641.h" />
+    <ClInclude Include="solution\70.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

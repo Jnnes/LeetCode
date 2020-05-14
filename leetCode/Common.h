@@ -283,3 +283,7 @@ template <typename T> void print(vector<T> vec) {
 
     std::cout << std::endl;
 }
+
+template<typename T> void print(T t) {
+    std::cout << t << std::endl;
+}
