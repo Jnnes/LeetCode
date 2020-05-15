@@ -164,6 +164,7 @@
     <ClInclude Include="solution\239.h" />
     <ClInclude Include="solution\239_dynamic.h" />
     <ClInclude Include="solution\32.h" />
+    <ClInclude Include="solution\344_reverseString.h" />
     <ClInclude Include="solution\41.h" />
     <ClInclude Include="solution\641.h" />
     <ClInclude Include="solution\69_sqrt.h" />
