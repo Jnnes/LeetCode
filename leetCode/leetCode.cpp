@@ -3,12 +3,12 @@
 
 #include <iostream>
 
-#include "solution/70.h"
+#include "solution/69_sqrt.h"
 int main()
 {
     Solution so;
     run(so);
-    std::cout << "Hello World!\n";
+    std::cout << std::endl << std::endl << "Hello LeetCode!\n" << std::endl;
 
     return 0;
 }
