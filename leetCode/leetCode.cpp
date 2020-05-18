@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-#include "solution/70.h"
+#include "solution/98.h"
 int main()
 {
     Solution so;
