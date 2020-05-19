@@ -65,5 +65,17 @@
     <ClInclude Include="solution\98.h">
       <Filter>源文件\solution</Filter>
     </ClInclude>
+    <ClInclude Include="solution\344_reverseString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="solution\69_sqrt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="solution\152.h">
+      <Filter>源文件\solution</Filter>
+    </ClInclude>
+    <ClInclude Include="solution\120.h">
+      <Filter>源文件\solution</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
