@@ -10,14 +10,15 @@ public:
         if (triangle.size() == 0)
             return 0;
 
-        vector<long> dp(triangle[triangle.size() - 1].size(), INT_MAX);
-        dp[0] = 0;
+        vector<long long> dp(triangle[triangle.size() - 1].size(), 0);
         for (int i = 0; i < triangle.size(); i++) {
             for (int j = triangle[i].size() - 1; j >= 0; j--) {
-                if (j > 0)
-                    dp[j] = min(dp[j - 1], dp[j]) + triangle[i][j];
-                else
+                if (j == 0)
                     dp[j] = dp[j] + triangle[i][j];
+                else if (j == triangle[i].size() - 1)
+                    dp[j] = dp[j - 1] + triangle[i][j];                
+                else                   
+                    dp[j] = min(dp[j - 1], dp[j]) + triangle[i][j];
             }
         }
 
