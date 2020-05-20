@@ -80,5 +80,8 @@
     <ClInclude Include="solution\1371.h">
       <Filter>源文件\solution</Filter>
     </ClInclude>
+    <ClInclude Include="solution\52.h">
+      <Filter>源文件\solution</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
