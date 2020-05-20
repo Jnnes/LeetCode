@@ -156,6 +156,7 @@
   <ItemGroup>
     <ClInclude Include="Common.h" />
     <ClInclude Include="solution\120.h" />
+    <ClInclude Include="solution\1371.h" />
     <ClInclude Include="solution\141.h" />
     <ClInclude Include="solution\15.h" />
     <ClInclude Include="solution\150.h" />
